@@ -163,7 +163,6 @@ shadow.
 ### 🔵 Chat Page - Desktop View
 
 ![Chat Desktop](./screenshots/chat-desktop.png)
-![Chat Desktop](./screenshots/chat-desktop1.png)
 
 ### 📱 Chat Page - Mobile View
 
