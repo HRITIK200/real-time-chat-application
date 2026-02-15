@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Room</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="chat-body">
+
+<div class="chat-wrapper">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h3>Active Users</h3>
+    <ul id="users"></ul>
+
+    <h3>Rooms</h3>
+    <ul id="rooms"></ul>
+
+  </div>
+
+  <!-- Chat Area -->
+  <div class="chat-area">
+
+   <div class="chat-header">
+    <h2 id="room-title">Room</h2>
+    <div class="online-indicator">
+    <div class="online-dot"></div>
+    <span id="online-count">0 online</span>
+    </div>
+   </div>
+
+
+    <div id="messages" class="messages"></div>
+
+    <form id="chat-form" class="chat-input-area">
+      <input id="msg" autocomplete="off" placeholder="Type a message...">
+      <button>Send</button>
+    </form>
+
+  </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
